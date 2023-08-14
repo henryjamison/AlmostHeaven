@@ -6,7 +6,15 @@
     right: 0;
     bottom: 0;
     background-size: cover;
-    background-position: center;
+    background-position-y: top;
     background-repeat: no-repeat;
-
 }
+
+@media screen and (max-width:768px){
+    .img-container{
+        background-image: url('../assets/Corona_phone_pic.jpg');
+        background-size: cover;
+        background-position: center;
+        overflow: hidden;
+    }
+  }
